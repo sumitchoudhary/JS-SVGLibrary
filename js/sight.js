@@ -7,16 +7,13 @@ class SVGElement {
         return this;
     }
     attr(attrs) {
-console.log(attrs)
-
         for (const [key, value] of Object.entries(attrs)) {
-
-
-    //    this.node.setAttributeNS(null, key, value);
+           this.node.setAttributeNS(null,key,value)
         }
         return this;
     }
 
+    append(element){ return this}
 
 
 }
